@@ -1,0 +1,38 @@
+body {
+    /*define font color and family*/
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*apply header styles -- start*/
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+/*style run buddy title*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+/*style links*/
+header a {
+    color: #fce138;
+    text-decoration: none;
+}
+/*style nav*/
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav li {
+    display: inline;
+}
+header nav li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/*apply header styles -- end*/
