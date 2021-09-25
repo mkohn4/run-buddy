@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     /*define font color and family*/
     color: #39a6b2;
@@ -36,3 +42,29 @@ header nav li a {
     font-size: 22px;
 }
 /*apply header styles -- end*/
+
+/* apply footer styles -- start*/
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+/*style footer heading*/
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/*style footer content*/
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+/*style footer links*/
+footer a {
+    color: #024e76;
+}
+/* apply footer styles -- end*/
+
