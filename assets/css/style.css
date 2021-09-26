@@ -204,6 +204,18 @@ header nav li a {
 }
 /*meet the trainers section -- END*/
 
+/*Reach out section -- start*/
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+/*reach out section -- end*/
+
 /* apply footer styles -- start*/
 footer {
     background: #fce138;
