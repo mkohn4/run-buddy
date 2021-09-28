@@ -214,6 +214,11 @@ header nav li a {
     color: #fce138;
 }
 
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
 /*reach out section -- end*/
 
 /* apply footer styles -- start*/
