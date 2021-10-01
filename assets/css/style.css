@@ -51,21 +51,36 @@ header nav li a {
 /*hero style --start*/
 .hero {
     background-image: url('../images/hero-bg.jpg');
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*hero cta section */
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.3;
 }
 
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
+
+/*hero form section*/
 .hero-form {
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
 }
 .hero-form h3 {
     font-size: 24px;
@@ -251,18 +266,18 @@ header nav li a {
 footer {
     background: #fce138;
     width: 100%;
-    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 /*style footer heading*/
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 /*style footer content*/
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
