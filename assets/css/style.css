@@ -314,11 +314,13 @@ footer h2 {
     color: #024e76;
     font-size: 30px;
     margin: 0;
+    padding: 12px 2vw;
 }
 /*style footer content*/
 footer div {
     line-height: 1.5;
     text-align: right;
+    padding: 12px 4vw;
 }
 /*style footer links*/
 footer a {
